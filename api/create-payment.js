@@ -35,7 +35,7 @@ export default async function handler(req, res) {
         price_currency: "usd",
         order_id: orderId + "-" + Date.now(),
         order_description: "buycannabisOrder Payment",
-        ipn_callback_url: "https://usaweed.vercel.app/api/webhook",
+        ipn_callback_url: "https://buycannabis-site.vercel.app/api/webhook",
         success_url: "https://buycannabis.site/payment-success",
         cancel_url: "https://buycannabis.site/payment-failed",
         is_fixed_rate: true
